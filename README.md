@@ -5,4 +5,5 @@
  2. Clone the forked repository to your local machine
  3. Install dependencies using `npm install`
  4. Run the project using `npm start`
+
  We hope that this repository will help you quickly and easily build and maintain the company website.
