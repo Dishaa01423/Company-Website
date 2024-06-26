@@ -1,8 +1,47 @@
-Welcome to the repository for Company's website! It contains all the source code and assets necessary to build the website. The website is built using Python libraries. The code is structured into folders for each page, as well as folders for assets such as images,text files,excel sheets.
-## Getting Started These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
- 1. Fork this repository
- 2. Clone the forked repository to your local machine
- 3. Install dependencies using `npm install`
- 4. Run the project using `npm start`
+# The Best Company
 
- We hope that this repository will help you quickly and easily build and maintain the company website.
+This is a Streamlit application that presents information about "The Best Company" and showcases its team members.
+
+## Features
+
+- Displays a company description.
+- Presents a list of team members with their roles and photos.
+- Uses a responsive layout with columns to organize team members.
+
+## Requirements
+
+- Python 3.x
+- `streamlit` library
+- `pandas` library
+- A CSV file (`data1.csv`) containing team member data with the following columns:
+  - `first name`
+  - `last name`
+  - `role`
+  - `image` (URL or path to the image)
+
+## Setup
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
+
+2. Install the required packages:
+
+    ```sh
+    pip install streamlit pandas
+    ```
+
+3. Ensure you have a `data1.csv` file in the same directory with the required columns.
+
+## Usage
+
+1. Run the Streamlit app:
+
+    ```sh
+    streamlit run app.py
+    ```
+
+2. Open the provided URL in your web browser to view the app.
