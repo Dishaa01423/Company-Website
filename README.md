@@ -24,8 +24,8 @@ This is a Streamlit application that presents information about "The Best Compan
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/Dishaa01423/Company-Website.git
+    cd Company-Website
     ```
 
 2. Install the required packages:
